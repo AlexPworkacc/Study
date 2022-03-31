@@ -1,0 +1,59 @@
+@mixin before-circle {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        border-radius: 100%;
+        background-color: $main-color;
+        z-index: -1;
+        left: -1px;
+        top: -30%;
+    }
+}
+
+@mixin before-circle_icon {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        border-radius: 100%;
+        background-color: $main-color;
+        z-index: -1;
+        left: 0;
+        top: 0;
+    }
+}
+
+@mixin before-circle_center {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        border-radius: 100%;
+        background-color: $main-color;
+        z-index: -1;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+}
+
+@mixin before-ring {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 100%;
+        left: 40px;
+        transform: translateY(10px);
+        z-index: 11;
+        translate: all .6s;
+    }
+}
