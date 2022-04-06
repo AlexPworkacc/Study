@@ -215,8 +215,8 @@
 
         <section class="resume">
             <div class="container">
-                <h2 class="title title_fs16 resume__title">Опыт</h2>
-                <h2 class="title resume__subtitle">Чем я буду полезна</h2>
+                <h2 class="title title_fs16 title__section-title">Опыт</h2>
+                <h2 class="title title__section-subtitle">Чем я буду полезна</h2>
                 <div class="divider divider_center"></div>
 
                 <div class="resume__wrapper">
@@ -303,8 +303,8 @@
 
         <section class="stack">
             <div class="container">
-                <h2 class="title title_fs16 resume__title">Навыки</h2>
-                <h2 class="title resume__subtitle">Что я использую в работе</h2>
+                <h2 class="title title_fs16 title__section-title">Навыки</h2>
+                <h2 class="title title__section-subtitle">Что я использую в работе</h2>
                 <div class="divider divider_center"></div>
 
                 <div class="stack__wrapper">
@@ -413,6 +413,110 @@
                         <div class="stack__progress-scale">
                             <span style="width: 95%;"></span>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="title title_fs16 title__section-title">Портфолио</h2>
+                <h2 class="title title__section-subtitle">Мои работы</h2>
+                <div class="divider divider_center"></div>
+
+                <div class="portfolio__wrapper">
+                    <a href="/uber" class="portfolio__item">
+                        <img src="img/works/uber.jpg" alt="test"></a>
+                    <a href="/pulse" class="portfolio__item">
+                        <img src="img/works/pulse.jpg" alt="test"></a>
+                    <a href="#" class="portfolio__item">
+                        <img src="img/works/bread.jpg" alt="test"></a>
+                    <a href="#" class="portfolio__item vertical">
+                        <img src="img/works/plans.jpg" alt="test"></a>
+                    <a href="#" class="portfolio__item">
+                        <img src="img/works/ipad.jpg" alt="test"></a>
+                    <a href="#" class="portfolio__item horizontal">
+                        <img src="img/works/mac.jpg" alt="test"></a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="price">
+            <div class="container">
+                <h2 class="title title_fs16 title__section-title">Прайс-лист</h2>
+                <div class="divider divider_center"></div>
+
+                <div class="price__wrapper">
+                    <div class="price__item">
+                        <div class="price__item-title">Landing-page</div>
+                        <div class="price__item-price">от 8000 руб.</div>
+                        <div id="descr" class="price__item-descr">Одностраничный сайт для презентации услуг/товаров/...</div>
+                    </div>
+                    <div class="price__item">
+                        <div class="price__item-title">Web-приложение</div>
+                        <div class="price__item-price">от 28000 руб.</div>
+                        <div id="descr" class="price__item-descr">Приложение внутри браузера для лучшего комфорта</div>
+                    </div>
+                    <div class="price__item">
+                        <div class="price__item-title">Корпоративный сайт</div>
+                        <div class="price__item-price">от 20000 руб.</div>
+                        <div id="descr" class="price__item-descr">Сайт для вашего бизнеса или компании</div>
+                    </div>
+                    <div class="price__item">
+                        <div class="price__item-title">Android/IOS Приложение</div>
+                        <div class="price__item-price">от 25000 руб.</div>
+                        <div id="descr" class="price__item-descr">Приложение для смартфона любой ОС</div>
+                    </div>
+                    <div class="price__item">
+                        <div class="price__item-title">Интернет-магазин</div>
+                        <div class="price__item-price">от 30000 руб.</div>
+                        <div id="descr" class="price__item-descr">Инструмент для ваших продаж в сети</div>
+                    </div>
+                    <div class="price__item">
+                        <div class="price__item-title">Дизайн</div>
+                        <div class="price__item-price">Индивидуально</div>
+                        <div id="descr" class="price__item-descr">Создам дизайн для вашего сайта/приложения...</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts__wrapper">
+                    <div class="contacts__avatar">
+                        <img src="img/main_photo.jpg" alt="main_photo">
+                    </div>
+                    <div class="contacts__descr">
+                        <div class="title title_fs16 contacts__title">Контакты</div>
+                        <div class="title">Свяжитесь со мной</div>
+                        <div class="divider"></div>
+                        <div class="title title_fs14 contacts__subtitle">Любым удобным для вас способом:</div>
+                        <div class="contacts__social">
+                            <a href="#" class="contacts__link"><img src="icons/social/facebook.svg" alt="facebook"/></a>
+                            <a href="#" class="contacts__link"><img src="icons/social/instagram.svg" alt="Instagramm"/></a>
+                            <a href="#" class="contacts__link"><img src="icons/social/github.svg" alt="Github"/></a>
+                        </div>
+                        <div class="title title_fs14 contacts__subtitle">Или оставьте ваши данные и я сама вам напишу:</div>
+
+                        <form action="#" class="contacts__form">
+                            <div class="contacts__input">
+                                <input name="name" type="text">
+                                <label for="name">Ваше имя</label>
+                            </div>
+                            <div class="contacts__input">
+                                <input name="email" type="email">
+                                <label for="email">Ваша почта</label>
+                            </div>
+                            <div class="contacts__input">
+                                <input name="textarea" type="text">
+                                <label for="textarea">Ваше сообщение</label>
+                            </div>
+                            <div>
+                                <button class="contacts__btn btn">Отправить сообщение</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
