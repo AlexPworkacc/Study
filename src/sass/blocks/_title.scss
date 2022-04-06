@@ -19,6 +19,14 @@
     &_fs48 {
         font-size: 48px;
     }
+    &__section-title {
+        @include before-circle_center;
+        text-align: center;
+    }
+    &__section-subtitle {
+        margin-top: 6px;
+        text-align: center;
+    }
 }
 
 .title_icon {

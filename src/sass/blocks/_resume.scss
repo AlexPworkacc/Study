@@ -1,16 +1,5 @@
 .resume {
     padding-top: 120px;
-
-    &__title {
-        @include before-circle_center;
-        display: block;
-        text-align: center;
-    }
-    &__subtitle {
-        margin-top: 6px;
-        display: block;
-        text-align: center;
-    }
     &__wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
